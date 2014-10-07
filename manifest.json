@@ -12,4 +12,13 @@
   "permissions": [
     "http://www.paulgraham.com/*"
   ]
+  "content-scripts": [
+    {
+      "matches": [
+        "*://*.paulgraham.com/*"
+      ],
+      "css": ["pg.css"],
+      "run_at" : "document_start"
+    }
+  ]
 }
