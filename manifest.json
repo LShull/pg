@@ -1,21 +1,31 @@
 {
   "manifest_version": 2,
-
   "name": "pg",
+  "version": "0.1",
+  "default_locale": "en",
   "description": "An extension to beautify Paul Graham's essays on http://paulgraham.com/",
-  "version": "1.0",
 
-  "browser_action": {
-    //"default_icon": "icon.png",
-    //"default_popup": "popup.html"
-  },
+  "author": "Sam Lawrence",
+
   "permissions": [
-    "http://www.paulgraham.com/*"
-  ]
+    "*://*.paulgraham.com/*"
+  ],
   "content-scripts": [
     {
       "matches": [
         "*://*.paulgraham.com/*"
+      ],
+      "exclude_matches": [
+        "*://paulgraham.com/antispam.html",
+        "*://paulgraham.com/ind.html",
+        "*://paulgraham.com/articles.html",
+        "*://paulgraham.com/index.html",
+        "*://paulgraham.com/books.html",
+        "*://paulgraham.com/onlisp.html",
+        "*://paulgraham.com/acl.html",
+        "*://paulgraham.com/hackpaint.html",
+        "*://paulgraham.com/arc.html",
+        "*://paulgraham.com/lisp.html"
       ],
       "css": ["pg.css"],
       "run_at" : "document_start"
