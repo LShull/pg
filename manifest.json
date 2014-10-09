@@ -25,10 +25,23 @@
         "*://paulgraham.com/acl.html",
         "*://paulgraham.com/hackpaint.html",
         "*://paulgraham.com/arc.html",
-        "*://paulgraham.com/lisp.html"
+        "*://paulgraham.com/lisp.html",
+        "*://paulgraham.com/rootsoflisp.html",
+        "*://paulgraham.com/diff.html",
+        "*://paulgraham.com/avg.html",
+        "*://paulgraham.com/lispcode.html",
+        "*://paulgraham.com/lisplinks.html",
+        "*://paulgraham.com/lispart.html",
+        "*://paulgraham.com/apps.html",
+        "*://paulgraham.com/booklinks.html",
+        "*://paulgraham.com/lisps.html",
+        "*://paulgraham.com/people.html",
+        "*://paulgraham.com/resources.html",
+        "*://paulgraham.com/spamresources.html"
       ],
       "css": ["pg.css"],
-      "run_at" : "document_start"
+      "js": [],
+      "run_at": "document_start"
     }
   ]
 }
