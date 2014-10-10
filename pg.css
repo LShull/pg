@@ -1,3 +1,20 @@
-table {
-	width: 80% !important;
+body > table:first-child {
+	width: 100% !important;
+}
+
+/*body > table:first child > tbody > tr > td:nth-child(3) {
+	width: 100% !important;
+}*/
+
+body > table > tbody > tr > td:nth-child(3) > table:nth-child(4) {
+	width: 100%;
+}
+
+body > table > tbody > tr > td:nth-child(3) > table:nth-child(4) > tbody > tr > td > font {
+	font-family: helvetica;
+	font-size: 18px
+}
+
+body > table > tbody > tr > td:nth-child(1) {
+	width: 69px;
 }

@@ -2,7 +2,6 @@
   "manifest_version": 2,
   "name": "pg",
   "version": "0.1",
-  "default_locale": "en",
   "description": "An extension to beautify Paul Graham's essays on http://paulgraham.com/",
 
   "author": "Sam Lawrence",
@@ -10,7 +9,7 @@
   "permissions": [
     "*://*.paulgraham.com/*"
   ],
-  "content-scripts": [
+  "content_scripts": [
     {
       "matches": [
         "*://*.paulgraham.com/*"
