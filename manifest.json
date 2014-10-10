@@ -40,9 +40,9 @@
       ],
       "css": ["pg.css"],
       "js": [],
-        "icons": { "16": "icon16.png",
-           "48": "icon48.png",
-          "128": "icon128.png" },
+        "icons": { "16": "https://cloud.githubusercontent.com/assets/7240126/4598562/7b31fac6-50ba-11e4-8c90-8a390668b78a.png",
+           "48": "https://cloud.githubusercontent.com/assets/7240126/4598566/7dda55f2-50ba-11e4-8acc-d2411376586b.png",
+          "128": "https://cloud.githubusercontent.com/assets/7240126/4598568/7f8a5dfc-50ba-11e4-899d-d45b3f1ac8f0.png" },
       "run_at": "document_start"
     }
   ]
