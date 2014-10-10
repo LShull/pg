@@ -5,7 +5,11 @@
   "description": "An extension to beautify Paul Graham's essays on http://paulgraham.com/",
 
   "author": "Sam Lawrence",
-
+  
+  "icons": { "16": "PG_16.png",
+           "48": "PG_48.png",
+          "128": "PG_128.png" },
+          
   "permissions": [
     "*://*.paulgraham.com/*"
   ],
